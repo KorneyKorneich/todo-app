@@ -1,0 +1,15 @@
+.todo-list-item{
+    width: 100%;
+display: flex;
+justify-content: space-between;
+}
+
+.todo-list-item.done .todo-item-label{
+    font-style: italic;
+    text-decoration: line-through;
+}
+
+.todo-list-item.important .todo-item-label{
+    font-size: larger;
+    color:rgb(37, 156, 116);
+}
